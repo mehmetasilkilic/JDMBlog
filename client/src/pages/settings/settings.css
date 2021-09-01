@@ -1,0 +1,86 @@
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 7;
+    padding: 20px 100px;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #32804c;
+}
+
+.settingsDeleteTitle{
+    color: #b20d1d;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPp{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingsPp > Img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.settingsPpIcon{
+    width: 30px;
+    height: 30px;
+    background-color: #32804c;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    color: white;
+    background-color: #2b70a0;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.settingsNotification{
+    color: #32804c;
+    margin-top: 20px;
+}
